@@ -1,0 +1,35 @@
+#heading {
+    text-align: center;
+    color: blue;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+.menu-item {
+    border: 1px solid white;
+    background-color: aquamarine;
+}
+.order-button {
+    text-align: center;
+}
+.menu-item button {
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    background-color: wheat;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.menu-item button:hover {
+    background-color: green;
+    color: white;
+}
+.menu-item h4 {
+    text-align: center;
+    text-decoration: underline;
+}
