@@ -42,6 +42,19 @@
     align-items: center;
     gap: 20px
 }
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    .dishes {
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .dishes {
+        background-color: lightpink;
+    }
+}
 
 .dish-item {
     background-color: lightblue;
